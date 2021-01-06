@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    /* color: #f00; */
+}
+header{
+    width: 100%;
+}
+
+nav{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    background: #999;
+}
+
+.button-menu{
+    width: 100%;
+    height: 40px;
+    background: rgb(231, 111, 56);
+}
+
+.banner{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background: rgb(230, 230, 230);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.bloks{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr;
+    column-gap: 10px;
+    margin-top: 10px;
+}
+
+.bloks-item{
+    padding: 10px;
+    background: rgb(249, 249, 249);
+    height:200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.bloks-item span{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.bloks-item span i{
+    font-size: 30px;
+}
+
+.bloks-item b{
+    font-size: 13px;
+}
+
+.mainview{
+    width: 100%;
+    height: 300px;
+    background: rgb(224, 224, 224);
+    margin-top: 15px;
+}
+
+.titleContent{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.titleContent div{
+    background:  rgb(231, 111, 56);
+    width: 70px;
+    height: 10px;
+}
+
+.content-items{
+    height: 300px;
+    background: rgb(216, 210, 210);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content-items-box{
+    width: 200px;
+    height: 280px;
+    background: rgb(177, 174, 174);
+    margin: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background: rgb(172, 170, 170);
+}
