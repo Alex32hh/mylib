@@ -18,6 +18,7 @@ nav{
     /* background: rgb(228, 228, 228); */
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 10px;
 }
 
 .button-menu{
@@ -27,11 +28,16 @@ nav{
     margin-top: 5px;
 }
 
+.menu-content{
+    width: 80%;
+    margin: auto;
+}
+
 .banner{
     width: 80%;
     height: 250px;
     margin: auto;
-    background: rgb(230, 230, 230);
+    background:  url('images/banner.jpg');
 }
 
 .container-bloks{
@@ -73,7 +79,7 @@ nav{
 .mainview{
     width: 100%;
     height: 300px;
-    background: rgb(224, 224, 224);
+    background:url('images/corFigure.png') center;
     margin-top: 15px;
 }
 
@@ -95,22 +101,31 @@ nav{
     background: rgb(216, 210, 210);
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    column-gap: 15px;
 }
 
 .content-items-box{
     width: 200px;
     height: 280px;
-    background: rgb(177, 174, 174);
+    background-position: center !important;
+    background-size: cover !important;
     margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    align-items: flex-start;
 }
 
-footer{
-    margin-top: 10px;
-    width: 100%;
-    height: 300px;
-    background: rgb(172, 170, 170);
+.content-items-box button{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
 }
+
 
 .logo{
     background: url('images/logoOscarRibas.png') no-repeat left;
@@ -156,5 +171,75 @@ footer{
 .user-name{
     display: grid;
     grid-template-columns: 1fr;
+    border: none;
+    background: none;
 }
-.user-name{}
+
+.user-name:hover{
+  color: rgb(163, 162, 162);
+}
+
+.user-name span,.user-name b{
+    width: 100%;
+    text-align: center;
+}
+.user-name b{
+    font-size: 14px;
+}
+.user-name i{
+    font-size: 19px;
+}
+
+.conta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 8fr;
+}
+.submenu-item:first-child{
+    font-size: 19px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    justify-items: left;
+}
+.submenu-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-items: center;
+   height: 40px;
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #fff;
+}
+.submenu-item span i{
+    font-size: 18px;
+    position: relative;
+    top: -2px;
+}
+
+footer{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background: rgb(194, 100, 57);
+}
+
+.top-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    background: rgb(231, 111, 56);
+}
+
+
